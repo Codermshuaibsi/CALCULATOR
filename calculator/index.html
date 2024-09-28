@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-inside">
+
+            <div class="calculator">
+                <div class="display">
+
+                    <input type="text" id="output" disabled>
+                </div>
+                <div class="btn">
+                    <button onclick="clear()">AC</button>
+                    <button onclick="take(9)">9</button>
+                    <button onclick="take(8)">8</button>
+                    <button onclick="take(7)">7</button>
+                    <button onclick="take('+')">+</button>
+                    <button onclick="take(6)">6</button>
+                    <button onclick="take(5)">5</button>
+                    <button onclick="take(4)">4</button>
+                    <button onclick="take('-')">-</button>
+                    <button onclick=" take(3) ">3</button>
+                    <button onclick="take(2) ">2</button>
+                    <button onclick="take(1) ">1</button>
+                    <button onclick="take('/') ">/</button>
+                    <button onclick="take('*') ">*</button>
+                    <button onclick="take(0) ">0</button>
+                    <button onclick="result('=') ">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js "></script>
+</body>
+
+</html>
